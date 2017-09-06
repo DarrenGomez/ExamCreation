@@ -30,3 +30,16 @@ Each question is in java and has a correct output that the student's will be com
 
 # My Contribution
 I was the backend for this assignment thus I was responsible for all of the SQL queries and the management of the SQL databases.
+
+Specifically, I created different functions to do the following:
+
+1.) Check for the login information from a SQL database. Because this was for a class, there was no need to salt the password or create any other security functionality. I understand the process of password salting and would be confident in applying this in a real world setting.
+
+2.) Adding a question to the question bank of predefined exam questions. 
+
+3.) Getting a single question from the question bank by its ID or retrieving the entire question bank for display purposes.
+
+4.) Adding an exam to the appropriate SQL database, storing the selected questions under this exam.
+
+5.) Saving a student's response to an exam question and storing it for grading later on. After grading, also saving his score and being able to retrieve his response and his score for display or grading purposes.
+
